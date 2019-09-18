@@ -1,0 +1,11 @@
+{
+  "name": "secreate-task",
+  "version": "1.0.0",
+  "description": "Task for Secreate company.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yan",
+  "license": "ISC"
+}
