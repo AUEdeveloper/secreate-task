@@ -11,7 +11,7 @@ router.get("/test", (_, res) =>
   res.json({ msg: "Shopping Cart works succesfully!" })
 );
 
-//@route  POST request to api/cart/price
+//@route  POST request to api/cart/total-price
 //@desc   Total price route
 //@access Public
 router.post("/total-price", getCurrencyData, (req, res) => {

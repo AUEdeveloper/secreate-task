@@ -1,0 +1,42 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.currencySelect {
+  display: flex;
+  align-items: baseline;
+}
+
+.currencySelect select {
+  margin-left: 10px;
+}
+
+.currencySelect h4 {
+  padding: 0;
+  margin: 0;
+}
+
+.shop-header__cart {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.fa-shopping-bag {
+  font-size: 30px;
+}
+
+.shop-header__quantity {
+  position: absolute;
+  bottom: -10%;
+  left: -10%;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 15px;
+  width: 20px;
+  border-radius: 50%;
+}
