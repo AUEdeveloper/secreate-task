@@ -1,6 +1,4 @@
 const addGood = (goods, payload) => {
-  if (goods.length === 0) return goods.concat([payload]);
-
   for (let good of goods) {
     if (good.name === payload.name && good.currency === payload.currency) {
       good.quantity += 1;
