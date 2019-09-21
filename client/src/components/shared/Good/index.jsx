@@ -15,7 +15,7 @@ const Good = ({ name, price, currency, imgUrl, addGood }) => {
         <img src={imgUrl} alt="1" />
       </div>
       <div className="good__info">
-        <p>{name}</p>
+        <h3>{name}</h3>
         <span>
           {price} {currency}
         </span>

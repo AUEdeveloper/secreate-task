@@ -16,3 +16,21 @@
   color: red;
   cursor: pointer;
 }
+
+.side-bar-list__controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-bar-list__controls button {
+  border: 1px solid black;
+  background: white;
+  color: black;
+}
+
+.side-bar-list__controls button:hover {
+  border: none;
+  background: black;
+  color: white;
+  transition: ease-in-out 0.2s;
+}

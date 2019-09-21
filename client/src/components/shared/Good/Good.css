@@ -1,3 +1,25 @@
 .good {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   z-index: 0;
+}
+
+.good:hover {
+  transform: scale(1.05);
+  transition: ease-in-out 0.3s;
+  background: white;
+}
+
+.good__img {
+  width: 80%;
+}
+
+.good__img img {
+  width: 100%;
+}
+
+.good__info {
+  text-align: center;
 }
